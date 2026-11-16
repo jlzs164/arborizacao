@@ -5,7 +5,7 @@ function Footer() {
     <footer className="site-footer">
       <div className="container footer-grid">
         <section className="footer-about">
-          <Link to="/" className="footer-brand">Raiz Urbana</Link>
+          <Link to="/" className="footer-brand">Raíz Urbana</Link>
           <p>
             Um guia introdutório sobre arborização, espécies nativas,
             plantio responsável e locais onde procurar mudas no Rio Grande do Sul.
@@ -34,7 +34,7 @@ function Footer() {
 
       <div className="footer-bottom">
         <div className="container footer-bottom-inner">
-          <p>© {new Date().getFullYear()} Raiz Urbana</p>
+          <p>© {new Date().getFullYear()} Raíz Urbana</p>
           <p>Informação, planejamento e cuidado com o verde.</p>
         </div>
       </div>

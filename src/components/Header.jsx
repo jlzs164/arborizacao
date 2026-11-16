@@ -15,8 +15,8 @@ function Header() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-        <Link to="/" className="brand" onClick={fecharMenu} aria-label="Raiz Urbana - página inicial">
-          <span>Raiz Urbana</span>
+        <Link to="/" className="brand" onClick={fecharMenu} aria-label="Raíz Urbana - página inicial">
+          <span>Raíz Urbana</span>
         </Link>
 
         <button

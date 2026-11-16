@@ -11,7 +11,7 @@ function Home() {
           <div className="hero-copy">
             <span className="eyebrow">Arborização urbana e qualidade de vida</span>
             <h1>
-              Mais árvores, cidades melhores:
+              Mais árvores significam cidades melhores:
               <span> o futuro começa pelo verde.</span>
             </h1>
             <p className="hero-description">
@@ -28,7 +28,7 @@ function Home() {
           <div className="hero-visual image-frame">
             <img
               src={imagemDestaque}
-              alt="Paisagem verde com árvores, representando uma cidade mais arborizada"
+              alt="Paisagem verde com árvores representando uma cidade mais arborizada"
               className="hero-image"
               onError={(event) => { event.currentTarget.style.display = "none"; }}
             />
@@ -47,40 +47,71 @@ function Home() {
           <div className="information-grid">
             <InfoCard title="Redução da temperatura">
               <p>
-                A sombra e a evapotranspiração ajudam a amenizar o calor,
-                tornando calçadas, praças e áreas externas mais confortáveis.
+                As árvores proporcionam sombra e liberam vapor de água pelas folhas,
+                ajudando a diminuir o calor. Isso contribui para tornar ruas e espaços
+                públicos mais frescos e confortáveis.
               </p>
             </InfoCard>
 
             <InfoCard title="Melhoria do ar">
               <p>
-                As árvores capturam parte das partículas presentes no ar e
-                contribuem para ambientes urbanos mais saudáveis.
+                As folhas ajudam a reter parte das partículas presentes no ar,
+                enquanto as árvores absorvem gás carbônico. Assim, contribuem
+                para melhorar as condições ambientais das cidades.
               </p>
             </InfoCard>
 
             <InfoCard title="Biodiversidade">
               <p>
-                Flores, frutos e copas oferecem alimento e abrigo para aves,
-                insetos polinizadores e outros animais.
+                As árvores oferecem alimento, abrigo e locais de reprodução para aves,
+                insetos e outros animais. A presença de diferentes espécies vegetais
+                também ajuda a manter os ecossistemas urbanos.
+              </p>
+            </InfoCard>
+
+            <InfoCard title="Regulação da água da chuva">
+              <p>
+                A copa das árvores intercepta parte da água da chuva, enquanto suas
+                raízes favorecem a infiltração no solo. Isso ajuda a reduzir o
+                escoamento da água pelas ruas.
+              </p>
+            </InfoCard>
+
+            <InfoCard title="Bem-estar e qualidade de vida">
+              <p>
+                Áreas arborizadas oferecem sombra e tornam os espaços públicos mais
+                agradáveis. Elas incentivam caminhadas, atividades ao ar livre e
+                momentos de convivência entre as pessoas.
+              </p>
+            </InfoCard>
+
+            <InfoCard title="Armazenamento de carbono">
+              <p>
+                Durante seu crescimento, as árvores absorvem gás carbônico da
+                atmosfera e armazenam parte desse carbono em seus troncos, galhos
+                e raízes, contribuindo para reduzir o impacto das mudanças climáticas.
               </p>
             </InfoCard>
           </div>
         </div>
       </section>
 
+
+
       <section className="editorial-section">
         <div className="container editorial-layout">
           <div className="editorial-copy">
             <span className="eyebrow">O desafio nas cidades</span>
-            <h2>Quando falta verde, a cidade sente.</h2>
+            <h2>O que acontece quando faltam árvores?</h2>
             <p>
-              A expansão urbana sem planejamento pode reduzir áreas permeáveis
-              e espaços vegetados. Com menos árvores, muitos locais ficam mais
-              expostos ao sol, têm menos sombra e oferecem menos abrigo para a fauna.
+              A falta de arborização afeta diretamente o ambiente urbano.
+              Sem árvores, ruas e calçadas ficam mais expostas ao sol, aumentando
+              a sensação de calor.
+              A ausência de vegetação também reduz os espaços de abrigo para
+              os animais e diminui a capacidade do solo de absorver a água da chuva.
             </p>
             <p>
-              Arborizar não significa apenas plantar em qualquer espaço: é preciso
+              Arborizar não significa apenas plantar em qualquer espaço. É preciso
               considerar calçadas, fiação, redes subterrâneas, circulação de pessoas
               e o tamanho que a árvore terá quando adulta.
             </p>
@@ -101,11 +132,12 @@ function Home() {
         <div className="container editorial-layout editorial-reverse">
           <div className="editorial-copy">
             <span className="eyebrow">O valor da arborização</span>
-            <h2>Mais sombra, vida e equilíbrio.</h2>
+            <h2>Cidades mais verdes são cidades melhores.</h2>
             <p>
-              Uma arborização bem planejada ajuda a reduzir a exposição ao calor,
-              melhora a experiência de caminhar pela cidade e amplia os espaços
-              disponíveis para a biodiversidade.
+              A arborização urbana é essencial para construir cidades mais saudáveis
+              e equilibradas. Além de melhorar o ambiente, as árvores contribuem para
+              o conforto das pessoas, a proteção da biodiversidade e a qualidade dos
+              espaços públicos. Cuidar da vegetação urbana é investir no bem-estar de toda a comunidade.
             </p>
             <p>
               Priorizar espécies nativas e diversificar os plantios também contribui
