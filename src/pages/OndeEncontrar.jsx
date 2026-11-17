@@ -120,9 +120,7 @@ function OndeEncontrar() {
         )}
 
         <div className="notice-box">
-          <strong>Sobre esta lista:</strong> o cadastro inicial reúne locais de alguns municípios
-          do RS, não representa todos os estabelecimentos do estado e pode precisar de atualização.
-          Floriculturas e garden centers podem não trabalhar com mudas de árvores nativas.
+          <strong>Sobre esta lista:</strong> Floriculturas e garden centers podem não trabalhar com mudas de árvores nativas.
           Confirme estoque, preços, horários e condições de atendimento diretamente com cada local.
         </div>
       </section>
