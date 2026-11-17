@@ -128,6 +128,70 @@ function Home() {
         </div>
       </section>
 
+      <section className="information-section" id="problemas-arborizacao">
+        <div className="container">
+          <div className="section-heading section-heading-centered">
+            <span className="eyebrow">Os impactos da falta de árvores</span>
+            <h2>Uma cidade sem verde também enfrenta problemas</h2>
+            <p>
+              A ausência de arborização afeta o equilíbrio ambiental e a qualidade
+              de vida nas cidades.
+            </p>
+          </div>
+
+          <div className="information-grid">
+            <InfoCard title="Aumento da temperatura">
+              <p>
+                Sem árvores para oferecer sombra e liberar vapor de água pelas folhas,
+                ruas e calçadas ficam mais expostas ao sol. Isso favorece o aumento
+                do calor e torna os espaços urbanos menos confortáveis.
+              </p>
+            </InfoCard>
+
+            <InfoCard title="Maior escoamento da chuva">
+              <p>
+                A falta de árvores e de áreas vegetadas reduz a interceptação da água
+                da chuva e pode dificultar sua infiltração no solo. Com isso, mais água
+                pode escorrer pelas ruas e sobrecarregar os sistemas de drenagem.
+              </p>
+            </InfoCard>
+
+            <InfoCard title="Perda de habitats naturais">
+              <p>
+                Com menos árvores, aves, insetos e outros animais perdem fontes de
+                alimento, abrigo e locais de reprodução. Isso reduz as condições
+                necessárias para a presença da biodiversidade nas cidades.
+              </p>
+            </InfoCard>
+
+            <InfoCard title="Menor contribuição para a qualidade do ar">
+              <p>
+                As árvores ajudam a reter parte das partículas presentes no ar e
+                absorvem gás carbônico durante seu crescimento. Quando a vegetação
+                é escassa, a cidade perde parte dessa contribuição natural.
+              </p>
+            </InfoCard>
+
+            <InfoCard title="Menos conforto nos espaços públicos">
+              <p>
+                Praças, calçadas e áreas de convivência sem árvores oferecem pouca
+                proteção contra o sol. Isso pode desestimular caminhadas, atividades
+                ao ar livre e o uso desses espaços pela população.
+              </p>
+            </InfoCard>
+
+            <InfoCard title="Maior necessidade de resfriamento">
+              <p>
+                Sem a sombra das árvores, edifícios e áreas próximas ficam mais
+                expostos à radiação solar. Em alguns casos, isso aumenta o calor
+                dentro das construções e a necessidade de ventiladores e ar-condicionado.
+              </p>
+            </InfoCard>
+          </div>
+        </div>
+      </section>
+
+
       <section className="editorial-section editorial-soft">
         <div className="container editorial-layout editorial-reverse">
           <div className="editorial-copy">
