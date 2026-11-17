@@ -132,7 +132,7 @@ function Home() {
         <div className="container">
           <div className="section-heading section-heading-centered">
             <span className="eyebrow">Os impactos da falta de árvores</span>
-            <h2>Uma cidade sem verde também enfrenta problemas</h2>
+            <h2>Sem elas, as cidades também enfrentam problemas</h2>
             <p>
               A ausência de arborização afeta o equilíbrio ambiental e a qualidade
               de vida nas cidades.
